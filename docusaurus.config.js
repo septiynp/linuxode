@@ -49,10 +49,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        logo: {
-          alt: 'Logo LinuXode',
-          src: 'img/ico.png',
-        },
+        title: 'LinuXode',
+//         logo: {
+//           alt: 'Logo LinuXode',
+//           src: 'img/ico.png',
+//         },
         items: [
           {to: '/blog', 
           label: 'All Posts', 
@@ -81,8 +82,8 @@ const config = {
       },  
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: true,
-        respectPrefersColorScheme: true,
+        disableSwitch: false,
+        respectPrefersColorScheme: false,
       },
       footer: {
         style: 'dark',
